@@ -160,3 +160,40 @@ function my_keydown(e){
       console.log("b key pressed shoes 8 drawn");
    }    
 }
+function up(){
+   if(player_y>=0){
+       player_y=player_y-block_image_height;
+       console.log("block image height="+ block_image_width);
+       console.log("up arrow pressed x="+player_x+"y="+player_y);
+       canvas.remove(player_object);
+       playerUpdate();
+   }
+}
+function down(){
+   if(player_y<=660){
+       player_y=player_y+block_image_height;
+       console.log("block image height="+ block_image_width);
+       console.log("down arrow pressed x="+player_x+"y="+player_y);
+       canvas.remove(player_object);
+       playerUpdate();
+   }
+}
+function left(){
+   if(player_x>=0){
+       player_x=player_x-block_image_width;
+       console.log("block image height="+ block_image_width);
+       console.log("left arrow pressed x="+player_x+"y="+player_y);
+       canvas.remove(player_object);
+       playerUpdate();
+   }
+}
+function right(){
+   if(player_x<=860){
+       player_x=player_x+block_image_width;
+       console.log("block image height="+ block_image_width);
+       console.log("right arrow pressed x="+player_x+"y="+player_y);
+       canvas.remove(player_object);
+       playerUpdate();
+   }
+}
+

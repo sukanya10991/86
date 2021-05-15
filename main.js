@@ -1,4 +1,4 @@
-var canvas= fabric.Canvas('hello');
+var canvas= fabric.Canvas('icantstopme');
 block_image_width=50;
 block_image_height=50;
 player_x=10;

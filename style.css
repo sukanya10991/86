@@ -1,6 +1,6 @@
 .solo
 {
-    background-image: url("blackpink_coachella.jpg");
+    background-image: url("rose.png");
     background-position: center;
     background-size: cover;
 }
@@ -39,3 +39,14 @@ a
 	border-radius: 10px;
 	margin-bottom: 10px;
 }
+h4{
+	color:white !important;
+}
+p{
+	font-size: 30px !important;
+	color:yellow !important;
+}
+#icantstopme{
+	background-color: violet;
+}
+

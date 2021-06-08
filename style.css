@@ -1,52 +1,52 @@
-.solo
-{
-    background-image: url("rose.png");
-    background-position: center;
-    background-size: cover;
-}
-#icantstopme
-{
-    border-width:10px;
-    background-color: rgb(238, 238, 238); 
-    border-style:ridge;
+.solo {
+	background-image: url("rose.png");
+	background-position: center;
+	background-size: cover;
 }
 
-h2
-{
+#icantstopme {
+	border-width: 10px;
+	background-color: rgb(238, 238, 238);
+	border-style: ridge;
+}
+
+h2 {
 	border-radius: 10px;
 	width: 200px;
 	padding: 5px;
- }
-h3
-{
+}
+
+h3 {
 	display: inline-block;
 }
-span
-{
-	color: black;	
+
+span {
+	color: black;
 }
-a
-{
+
+a {
 	text-decoration: none;
 	font-size: 20px;
 	padding: 10px;
-    float: left;
-    border-radius: 10px;
+	float: left;
+	border-radius: 10px;
 }
-#head_info
-{
+
+#head_info {
 	width: 600px;
 	border-radius: 10px;
 	margin-bottom: 10px;
 }
-h4{
-	color:white !important;
-}
-p{
-	font-size: 30px !important;
-	color:yellow !important;
-}
-#icantstopme{
-	background-color: violet;
+
+h4 {
+	color: white !important;
 }
 
+p {
+	font-size: 30px !important;
+	color: yellow !important;
+}
+
+#icantstopme {
+	background-color: violet;
+}
